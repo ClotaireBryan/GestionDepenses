@@ -4,6 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AjouterPageActivity">
+    tools:context=".Activity.AjouterPageActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonAjouterDepense">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Montant :"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/EDIT-Montant-Ajouter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="3.50 €"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lieux :"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/EDIT-Lieu-Ajouter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Intersport"
+            android:inputType="text"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ville :"
+            android:textAlignment="center"/>
+        <EditText
+            android:id="@+id/EDIT-Ville-Ajouter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Paris (FACULTATIF)"
+            android:inputType="textAutoCorrect"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/ButtonAjouterDepense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ajouter"
+        android:onClick="addDepense"
+        app:layout_constraintBottom_toBottomOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -1,9 +1,14 @@
-package clotaire.bryan.gestiondepenses;
+package clotaire.bryan.gestiondepenses.Activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import clotaire.bryan.gestiondepenses.Activity.AjouterPageActivity;
+import clotaire.bryan.gestiondepenses.Activity.ConsulterPageActivity;
+import clotaire.bryan.gestiondepenses.Activity.ListerPageActivity;
+import clotaire.bryan.gestiondepenses.R;
 
 public class MainActivity extends AppCompatActivity {
 

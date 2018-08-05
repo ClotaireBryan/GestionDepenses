@@ -16,15 +16,20 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ajouter "/>
+            android:text="Ajouter "
+            android:onClick="clickAjoutPage"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="liste des depenses"/>
+            android:text="liste des depenses"
+            android:onClick="clickListerDepensesPage"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="soldes du compte"/>
+            android:text="soldes du compte"
+            android:onClick="clickSoldesComptePage"/>
 
 
     </LinearLayout>

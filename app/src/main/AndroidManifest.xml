@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".Activity.AjouterPageActivity" />
         <activity android:name=".Activity.ListerPageActivity" />
-        <activity android:name=".Activity.ConsulterPageActivity"></activity>
+        <activity android:name=".Activity.ConsulterPageActivity" />
+        <activity android:name=".Activity.AjoutersSoldeActivity"></activity>
     </application>
 
 </manifest>
